@@ -25,7 +25,7 @@
 + 1 Bluetooth device
 + 1 battery
 + 25 cables
-+ 3 resistors
++ 6 resistors
 
 ## Step1:
 ### Connecting your Arduino to your computer
