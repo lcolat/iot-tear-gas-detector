@@ -4,6 +4,7 @@
 + [Material](#Material)
 + [Step1](#Step1)
 + [Step2](#Step2)
++ [Step3](#Step3)
 
 ## Material:
 + 1 Arduino
@@ -100,6 +101,6 @@ We will now connect the components to each other to link them to the arduino.
 | battery          | positif | Arduino          |                  |
 | battery          | négatif | Arduino          |                  |
 
-## Step6: Conclusion
+## Step3: Conclusion
 Congratulations, you have just created your tear gas detector "GazIOT".
 You are ready to go to a demonstration to claim your rights, or simply to attend it.
