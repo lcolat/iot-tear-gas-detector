@@ -88,12 +88,12 @@ We will now connect the components to each other to link them to the arduino.
 | Breadboard       | 18.f    | Breadboard       | -                |
 | resistor8        | borne1  | Bluetooth device | RX               |
 | resistor4        | borne1  | Bluetooth device | RX               |
-| resistor4        | borne2  | Bluetooth device | Terre            |
-| Breadboard       | 1.e     | Bluetooth device | Terre            |
+| resistor4        | borne2  | Bluetooth device | Ground           |
+| Breadboard       | 1.e     | Bluetooth device | Ground           |
 | Bluetooth device | Activer | resistor7        | borne2           |
 | resistor7        | borne1  | resistor6        | borne1           |
 | resistor6        | borne1  | Bluetooth device | Alimentation     |
-| resistor6        | borne2  | Bluetooth device | Réinitialisation |
+| resistor6        | borne2  | Bluetooth device | Reset            |
 | Arduino          | 3.3V    | Bluetooth device | Alimentation     |
 | battery          | positif | Arduino          |                  |
 | battery          | négatif | Arduino          |                  |
