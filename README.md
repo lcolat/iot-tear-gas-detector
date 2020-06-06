@@ -1,21 +1,21 @@
 # GazIOT
 ## Table of contents
-+ [Material](##Material)
-+ [Step1](##Step1)
-+ [Step2](##Step2)
++ [Material](#Material)
++ [Step1](#Step1)
++ [Step2](#Step2)
 ## Material :
-+ 1 Arduino BT
++ 1 Arduino
 + 1 mini breadboard
-+ 1 capteur de gaz
-+ 1 moteur vibrateur
++ 1 gas sensor
++ 1 vibrating motor
 + 1 LED
-+ 1 module Bluetooth
-+ 1 batterie
++ 1 Bluetooth device
++ 1 battery
 + 25 cables
-+ 3 résistances
++ 3 resistors
 
-## Step1 : Connecter votre Arduino à votre ordinateur
-Tout d’abord il va falloir charger le code dans le microcontrôleur via USB et au logiciel “Arduino IDE”.
+## Step1 : Connecting your Arduino to your computer
+First of all it will be necessary to load the code into the microcontroller via USB and the "Arduino IDE" software.
 ```C++
 #define LED_PIN 2
 #define VIBRATOR 3
@@ -50,16 +50,16 @@ void loop()
 }
 ```
 
-Ouvrir le logiciel Arduino
-Dans outils -> type de carte: sélectionner "Arduino Uno”
-Dans outils -> Port: sélectionner le port USB correspondant au port que vous avez utilisé pour brancher votre Arduino (sur windows allez sur Paramètres -> Appareils Bluetooth et autres pour voir sur quel port se trouve votre Arduino)
-Dans Fichier -> Exemples ->  Basics: sélectionner le programme
-Une fois le programme ouvert, appuyer sur le bouton Vérifier puis sur le bouton Téléverser.
-Si tout se passe bien, la LED "L" sur votre Arduino va se mettre à clignoter.
-Vous avez chargé votre premier programme sur votre microcontrôleur Arduino, bravo! 
+Open the Arduino software
+Select "Arduino Uno" in Tools -> Map Type.
+In Tools -> Port: select the USB port corresponding to the port you used to connect your Arduino (on windows go to Settings -> Bluetooth devices and others to see which port your Arduino is on).
+In File -> Examples -> Basics: select the program
+Once the program is open, press the Check button and then the Upload button.
+If everything goes well, the LED "L" on your Arduino will start flashing.
+You have loaded your first program on your Arduino microcontroller, congratulations! 
 
-## Step2 : Brancher les composants à l’Arduino
-Nous allons maintenant brancher les composants entre eux pour les relier à l’arduino.
+## Step2 : Connecting the components to the Arduino
+We will now connect the components to each other to link them to the arduino.
 
 | Composant1       | pin     | Composant2       | pin              |
 |------------------|---------|------------------|------------------|
@@ -67,34 +67,34 @@ Nous allons maintenant brancher les composants entre eux pour les relier à l’
 | Arduino          | GND     | Breadboard       | -                |
 | Breadboard       | +       | Breadboard       | 27.a             |
 | Breadboard       | -       | Breadboard       | 28.a             |
-| Capteur de Gaz   | A2      | Breadboard       | 27.b             |
-| Capteur de Gaz   | H1      | Breadboard       | 27.b             |
-| Capteur de Gaz   | A1      | Breadboard       | 27.b             |
-| Capteur de Gaz   | B1      | Arduino          | A0               |
-| Capteur de Gaz   | B2      | Resistance2      | borne1           |
-| Capteur de Gaz   | H2      | Breadboard       | 28.d             |
-| Resistance2      | borne2  | Breadboard       | 28.c             |
+| gas sensor       | A2      | Breadboard       | 27.b             |
+| gas sensor       | H1      | Breadboard       | 27.b             |
+| gas sensor       | A1      | Breadboard       | 27.b             |
+| gas sensor       | B1      | Arduino          | A0               |
+| gas sensor       | B2      | resistor2        | borne1           |
+| gas sensor       | H2      | Breadboard       | 28.d             |
+| resistor2        | borne2  | Breadboard       | 28.c             |
 | Arduino          | D2      | Breadboard       | 19.a             |
 | Arduino          | D3      | Breadboard       | 15.a             |
-| Arduino          | D1      | Resistance8      | borne2           |
-| Arduino          | D0      | Module bluetooth | TX               |
-| Resistance1      | borne1  | Breadboard       | 19.d             |
-| Resistance1      | borne2  | Breadboard       | 19.f             |
-| Moteur vibrateur | négatif | Breadboard       | 14.a             |
-| Moteur vibrateur | positif | Breadboard       | 15.a             |
+| Arduino          | D1      | resistor8        | borne2           |
+| Arduino          | D0      | Bluetooth device | TX               |
+| resistor1        | borne1  | Breadboard       | 19.d             |
+| resistor1        | borne2  | Breadboard       | 19.f             |
+| vibrating motor  | négatif | Breadboard       | 14.a             |
+| vibrating motor  | positif | Breadboard       | 15.a             |
 | Breadboard       | 14.a    | Breadboard       | -                |
 | LED              | Anode   | Breadboard       | 19.g             |
 | LED              | Cathode | Breadboard       | 18.g             |
 | Breadboard       | 18.f    | Breadboard       | -                |
-| Resistance8      | borne1  | Module bluetooth | RX               |
-| Resistance4      | borne1  | Module bluetooth | RX               |
-| Resistance4      | borne2  | Module bluetooth | Terre            |
-| Breadboard       | 1.e     | Module bluetooth | Terre            |
-| Module bluetooth | Activer | Resistance7      | borne2           |
-| Resistance7      | borne1  | Resistance6      | borne1           |
-| Resistance6      | borne1  | Module bluetooth | Alimentation     |
-| Resistance6      | borne2  | Module bluetooth | Réinitialisation |
-| Arduino          | 3.3V    | Module bluetooth | Alimentation     |
-| Batterie         | positif | Arduino          |                  |
-| Batterie         | négatif | Arduino          |                  |
+| resistor8        | borne1  | Bluetooth device | RX               |
+| resistor4        | borne1  | Bluetooth device | RX               |
+| resistor4        | borne2  | Bluetooth device | Terre            |
+| Breadboard       | 1.e     | Bluetooth device | Terre            |
+| Bluetooth device | Activer | resistor7        | borne2           |
+| resistor7        | borne1  | resistor6        | borne1           |
+| resistor6        | borne1  | Bluetooth device | Alimentation     |
+| resistor6        | borne2  | Bluetooth device | Réinitialisation |
+| Arduino          | 3.3V    | Bluetooth device | Alimentation     |
+| battery          | positif | Arduino          |                  |
+| battery          | négatif | Arduino          |                  |
 
