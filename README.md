@@ -59,90 +59,25 @@ Vous avez chargé votre premier programme sur votre microcontrôleur Arduino, br
 ## Étape 2 : Brancher les composants à l’Arduino
 Nous allons maintenant brancher les composants entre eux pour les relier à l’arduino.
 
-| Composant1     | pin   | Composant2  | pin   |
-|----------------|-------|-------------|-------|
-| Arduino        | 5V    | Breadboard  | +     |
-| Arduino        | GND   | Breadboard  | -     |
-| Breadboard     | +     | Breadboard  | 27.1  |
-| Breadboard     | -     | Breadboard  | 28.1  |
-| Capteur de Gaz | A2    | Breadboard  | 27.2  |
-| Capteur de Gaz | H1    | Breadboard  | 27.2  |
-| Capteur de Gaz | A1    | Breadboard  | 27.2  |
-| Capteur de Gaz | B1    | Arduino     | A0    |
-| Capteur de Gaz | B2    | Resistance2 | borne1|
-| Capteur de Gaz | H2    | Breadboard  | 28.4  |
-| Resistance2    | borne2| Breadboard  | 28.3  |
-| Arduino        | D2    | Breadboard  | 19.1  |
-| Arduino        | D3    | Breadboard  | 15.1  |
-| Arduino        | D1    | Breadboard  | +     |
-| Arduino        | D0    | Breadboard  | +     |
-| Resistance1    | borne1| Breadboard  | 19.d  |
-| Arduino        | 5V    | Breadboard  | +     |
-| Arduino        | 5V    | Breadboard  | +     |
-| Arduino        | 5V    | Breadboard  | +     |
-|----------------|-------|-------------|-------|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-Capteur de gaz
-Arduino
-A1 
-5V
-A2 
-5V
-H1
-5V
-B2
-GND
-H2
-GND
-B1
-A0
-
-Attention: le pin B2 sera connecté à une résistance avant d’attendre le GND de l’arduino.
-
-
-
+| Composant1       | pin   | Composant2  | pin   |
+|------------------|-------|-------------|-------|
+| Arduino          | 5V    | Breadboard  | +     |
+| Arduino          | GND   | Breadboard  | -     |
+| Breadboard       | +     | Breadboard  | 27.a  |
+| Breadboard       | -     | Breadboard  | 28.a  |
+| Capteur de Gaz   | A2    | Breadboard  | 27.b  |
+| Capteur de Gaz   | H1    | Breadboard  | 27.b  |
+| Capteur de Gaz   | A1    | Breadboard  | 27.b  |
+| Capteur de Gaz   | B1    | Arduino     | A0    |
+| Capteur de Gaz   | B2    | Resistance2 | borne1|
+| Capteur de Gaz   | H2    | Breadboard  | 28.d  |
+| Resistance2      | borne2| Breadboard  | 28.c  |
+| Arduino          | D2    | Breadboard  | 19.a  |
+| Arduino          | D3    | Breadboard  | 15.a  |
+| Arduino          | D1    | Breadboard  | +     |
+| Arduino          | D0    | Breadboard  | +     |
+| Resistance1      | borne1| Breadboard  | 19.d  |
+| Resistance1      | borne2| Breadboard  | 19.f  |
+| Moteur vibrateur | 5V    | Breadboard  | +     |
+| Moteur vibrateur | 5V    | Breadboard  | +     |
+|------------------|-------|-------------|-------|
