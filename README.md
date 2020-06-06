@@ -16,7 +16,7 @@ Here is a tear gas detector that may be useful during events, this detector will
 + [Step1](#Step1)
 + [Step2](#Step2)
 + [Step3](#Step3)
-+ [link](Link)
++ [Link](Link)
 
 ## Material
 ![GazIOT cut](./img/3Dview1.PNG)
