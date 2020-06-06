@@ -2,6 +2,7 @@
 ![GazIOT](./img/3Dview2.PNG)
 
 Here is a tear gas detector that may be useful during events, this detector will vibrate and light a LED before sending you a notification when tear gas is detected.
+
 ## Team
 * Barseyni Nicolas
 * Colat Loïc
@@ -118,3 +119,7 @@ We will now connect the components to each other to link them to the arduino.
 ### Conclusion
 Congratulations, you have just created your tear gas detector "GazIOT".
 You are ready to go to a demonstration to claim your rights, or simply to attend it.
+
+## Link:
++ [thinkercad](https://www.tinkercad.com/things/hsTh2XjKJng-amazing-densor/editel?tenant=circuits&sharecode=qoGlJLPNmIi50orQ0rCs77jslDYdPzyXEAgLbSYyFZs)
++ [3D view](https://www.tinkercad.com/things/lRItPivcIXB-gaziot/edit?sharecode=J9wXbBGpnQkKYdp2Et2Vop94DHTuPWfHTdaguoVU4mM)
