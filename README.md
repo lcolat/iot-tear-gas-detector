@@ -1,5 +1,5 @@
 # GazIOT
-![GazIOT](./img/3Dview2.png)
+![GazIOT](img/3Dview2.png)
 
 ## Team
 * Barseyni Nicolas
@@ -15,8 +15,8 @@
 + [Step3](#Step3)
 
 ## Material:
-![GazIOT cut](./img/3Dview1.png){:height="36px" width="36px"}.
-![GazIOT components](./img/thinkercad.png){:height="36px" width="36px"}
+![GazIOT cut](img/3Dview1.png){:height="36px" width="36px"}.
+![GazIOT components](img/thinkercad.png){:height="36px" width="36px"}
 + 1 Arduino
 + 1 mini breadboard
 + 1 gas sensor
