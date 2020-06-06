@@ -1,7 +1,9 @@
 # GazIOT
 ![GazIOT](./img/3Dview2.PNG)
 
+## Presentation
 Here is a tear gas detector that may be useful during events, this detector will vibrate and light a LED before sending you a notification when tear gas is detected.
+
 ## Team
 * Barseyni Nicolas
 * Colat Loïc
@@ -15,7 +17,7 @@ Here is a tear gas detector that may be useful during events, this detector will
 + [Step2](#Step2)
 + [Step3](#Step3)
 
-## Material:
+## Material
 ![GazIOT cut](./img/3Dview1.PNG)
 ![GazIOT components](./img/thinkercad.PNG)
 + 1 Arduino
@@ -28,7 +30,7 @@ Here is a tear gas detector that may be useful during events, this detector will
 + 25 cables
 + 6 resistors
 
-## Step1:
+## Step1
 ### Connecting your Arduino to your computer
 First of all it will be necessary to load the code into the microcontroller via USB and the "Arduino IDE" software.
 ```C++
@@ -73,7 +75,7 @@ Once the program is open, press the Check button and then the Upload button.
 If everything goes well, the LED "L" on your Arduino will start flashing.
 You have loaded your first program on your Arduino microcontroller, congratulations! 
 
-## Step2:
+## Step2
 ### Connecting the components to the Arduino
 We will now connect the components to each other to link them to the arduino.
 
@@ -114,7 +116,7 @@ We will now connect the components to each other to link them to the arduino.
 | battery          | positif | Arduino          |                  |
 | battery          | négatif | Arduino          |                  |
 
-## Step3:
+## Step3
 ### Conclusion
 Congratulations, you have just created your tear gas detector "GazIOT".
 You are ready to go to a demonstration to claim your rights, or simply to attend it.
