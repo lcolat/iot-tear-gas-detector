@@ -1,5 +1,8 @@
 # GazIOT
-
+## Table of contents
++ [Matériel](#Matériel)
++ [Étape 1](#Étape1)
++ [Étape 2](#Étape2)
 ## Matériel :
 + 1 Arduino BT
 + 1 mini breadboard
