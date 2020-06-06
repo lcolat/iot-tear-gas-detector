@@ -2,7 +2,7 @@
 ![GazIOT](./img/3Dview2.PNG)
 
 ## Presentation
-Here is a tear gas detector that may be useful during events, this detector will vibrate and light a LED before sending you a notification when tear gas is detected.
+Here is a tear gas detector that may be useful during events, this detector will vibrate and light a LED before sending you a notification on your mobile phone when tear gas is detected.
 
 ## Team
 * Barseyni Nicolas
