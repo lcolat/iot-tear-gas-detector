@@ -1,9 +1,9 @@
 # GazIOT
 ## Table of contents
-+ [Matériel](##Matériel)
-+ [Étape 1](##Étape1)
-+ [Étape 2](##Étape2)
-## Matériel :
++ [Material](#Material)
++ [Step1](#Step1)
++ [Step2](#Step2)
+## Material :
 + 1 Arduino BT
 + 1 mini breadboard
 + 1 capteur de gaz
@@ -15,7 +15,7 @@
 + 3 résistances
 
 
-## Étape 1 : Connecter votre Arduino à votre ordinateur
+## Step1 : Connecter votre Arduino à votre ordinateur
 Tout d’abord il va falloir charger le code dans le microcontrôleur via USB et au logiciel “Arduino IDE”.
 ```C++
 #define LED_PIN 2
@@ -59,7 +59,7 @@ Une fois le programme ouvert, appuyer sur le bouton Vérifier puis sur le bouton
 Si tout se passe bien, la LED "L" sur votre Arduino va se mettre à clignoter.
 Vous avez chargé votre premier programme sur votre microcontrôleur Arduino, bravo! 
 
-## Étape 2 : Brancher les composants à l’Arduino
+## Step2 : Brancher les composants à l’Arduino
 Nous allons maintenant brancher les composants entre eux pour les relier à l’arduino.
 
 | Composant1       | pin     | Composant2       | pin              |
