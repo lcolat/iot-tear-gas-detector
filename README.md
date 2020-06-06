@@ -1,6 +1,7 @@
 # GazIOT
 ![GazIOT](./img/3Dview2.PNG)
 
+Here is a tear gas detector that may be useful during events, this detector will vibrate and light a LED before sending you a notification when tear gas is detected.
 ## Team
 * Barseyni Nicolas
 * Colat Loïc
