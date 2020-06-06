@@ -1,8 +1,8 @@
 # GazIOT
 ## Table of contents
-+ [Material](#Material)
-+ [Step1](#Step1)
-+ [Step2](#Step2)
++ [Material](##Material)
++ [Step1](##Step1)
++ [Step2](##Step2)
 ## Material :
 + 1 Arduino BT
 + 1 mini breadboard
@@ -13,7 +13,6 @@
 + 1 batterie
 + 25 cables
 + 3 résistances
-
 
 ## Step1 : Connecter votre Arduino à votre ordinateur
 Tout d’abord il va falloir charger le code dans le microcontrôleur via USB et au logiciel “Arduino IDE”.
