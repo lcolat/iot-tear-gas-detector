@@ -2,9 +2,9 @@
 
 ## Table of contents
 + [Material](#Material)
-+ [Step-1](#Step-1)
-+ [Step-2](#Step-2)
-+ [Step-3](#Step-3)
++ [Step1](#Step1)
++ [Step2](#Step2)
++ [Step3](#Step3)
 
 ## Material:
 + 1 Arduino
@@ -17,7 +17,8 @@
 + 25 cables
 + 3 resistors
 
-## Step-1: Connecting your Arduino to your computer
+## Step1:
+### Connecting your Arduino to your computer
 First of all it will be necessary to load the code into the microcontroller via USB and the "Arduino IDE" software.
 ```C++
 #define LED_PIN 2
@@ -61,7 +62,8 @@ Once the program is open, press the Check button and then the Upload button.
 If everything goes well, the LED "L" on your Arduino will start flashing.
 You have loaded your first program on your Arduino microcontroller, congratulations! 
 
-## Step-2: Connecting the components to the Arduino
+## Step2:
+### Connecting the components to the Arduino
 We will now connect the components to each other to link them to the arduino.
 
 | Composant1       | pin     | Composant2       | pin              |
@@ -101,6 +103,7 @@ We will now connect the components to each other to link them to the arduino.
 | battery          | positif | Arduino          |                  |
 | battery          | négatif | Arduino          |                  |
 
-## Step-3: Conclusion
+## Step3:
+### Conclusion
 Congratulations, you have just created your tear gas detector "GazIOT".
 You are ready to go to a demonstration to claim your rights, or simply to attend it.
