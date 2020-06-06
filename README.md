@@ -95,4 +95,4 @@ Nous allons maintenant brancher les composants entre eux pour les relier à l’
 | Arduino          | 3.3V    | Module Wi-FI| Alimentation     |
 | Batterie         | positif | Arduino     |                  |
 | Batterie         | négatif | Arduino     |                  |
-|------------------|---------|-------------|------------------|
+
