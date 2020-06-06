@@ -1,5 +1,12 @@
 # GazIOT
 
+## Team
+* Barseyni Nicolas
+* Colat Loïc
+* Da Roit Hugo
+* Dormoy Guillaume
+* Malivert Christopher
+
 ## Table of contents
 + [Material](#Material)
 + [Step1](#Step1)
